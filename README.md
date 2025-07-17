@@ -54,6 +54,7 @@ PostOnNotionAgent|	Leaf|	Posts the final article to a Notion page using MCP prot
 
 ## 📦 Project Structure
 
+```
 sustainable_news_agents/
 └── NewsAggregatorBuilder/
     ├── __init__.py
@@ -70,8 +71,10 @@ sustainable_news_agents/
         │       ├── VisualSummaryGeneratorAgent/
         │       └── FinalArticleComposerAgent/
         └── PostOnNotionAgent/
+```
 
 ## 🧪 Setup & Execution
+
 ### 1. Clone the Repository
 ```
 git clone https://github.com/yourusername/sustainable-news-agents.git
