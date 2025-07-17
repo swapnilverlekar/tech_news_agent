@@ -29,17 +29,18 @@ As climate-tech and sustainable investing continue to grow, there's a need for a
     A --> D[PostOnNotionAgent]
 
 ## 🧠 Agent Breakdown
-Agent|	Type|	Role
-NewsAggregatorBuilder|	Sequential|	Orchestrates the entire pipeline
-FetchContentParallelAgent|	Parallel|	Fetches news, ESG data, and sentiment in parallel
-GreenTechNewsFetcherAgent|	Leaf|	Searches latest clean tech news using google_search
-CarbonImpactAnalyzerAgent|	Leaf|	Evaluates environmental impact and ESG metrics from articles
-SocialESGSentimentAgent|	Leaf|	Scrapes Reddit/Twitter sentiment on ESG topics
-InsightBuilderSequentialAgent|	Sequential|	Builds company highlights, visuals, and final summary
-CompanyHighlightBuilderAgent|	Leaf|	Identifies notable companies/projects and writes summaries
-VisualSummaryGeneratorAgent|	Leaf|	Outputs JSON-ready data for visualizing ESG scores/sentiments
-FinalArticleComposerAgent|	Leaf|	Combines all content into one formatted article
-PostOnNotionAgent|	Leaf|	Posts the final article to a Notion page using MCP protocol
+|Agent|	Type|	Role|
+|---|---|---|
+|NewsAggregatorBuilder|	Sequential|	Orchestrates the entire pipeline|
+|FetchContentParallelAgent|	Parallel|	Fetches news, ESG data, and sentiment in parallel|
+|GreenTechNewsFetcherAgent|	Leaf|	Searches latest clean tech news using google_search|
+|CarbonImpactAnalyzerAgent|	Leaf|	Evaluates environmental impact and ESG metrics from articles|
+|SocialESGSentimentAgent|	Leaf|	Scrapes Reddit/Twitter sentiment on ESG topics|
+|InsightBuilderSequentialAgent|	Sequential|	Builds company highlights, visuals, and final summary|
+|CompanyHighlightBuilderAgent|	Leaf|	Identifies notable companies/projects and writes summaries|
+|VisualSummaryGeneratorAgent|	Leaf|	Outputs JSON-ready data for visualizing ESG scores/sentiments|
+|FinalArticleComposerAgent|	Leaf|	Combines all content into one formatted article|
+|PostOnNotionAgent|	Leaf|	Posts the final article to a Notion page using MCP protocol|
 
 ## 🛠️ Tech Stack
 - Google ADK – Agent orchestration and execution
