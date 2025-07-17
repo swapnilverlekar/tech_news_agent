@@ -1,21 +1,21 @@
-# 🌿 Sustainable Tech News Aggregator & Insight Engine
+# Sustainable Tech News Aggregator & Insight Engine
 A multi-agent system built using Google ADK (Agent Development Kit) to automatically fetch, analyze, and publish weekly summaries of clean tech innovations, ESG sentiment, and carbon impact trends. The final articles are auto-formatted and published to a Notion page using MCP (Model Context Protocol).
 
-## 🚀 Project Highlights
-- ✅ Aggregates real-time news on sustainability, ESG, clean energy, and carbon neutrality
+## Project Highlights
+- Aggregates real-time news on sustainability, ESG, clean energy, and carbon neutrality
 
-- 🧠 Analyzes carbon impact and public ESG sentiment
+- Analyzes carbon impact and public ESG sentiment
 
-- 📊 Generates visual summaries (ESG score charts, sentiment graphs)
+- Generates visual summaries (ESG score charts, sentiment graphs)
 
-- 📝 Composes well-structured Markdown articles
+- Composes well-structured Markdown articles
 
-- 📥 Publishes directly to Notion using Notion MCP Server
+- Publishes directly to Notion using Notion MCP Server
 
-## 💡 Motivation
+## Motivation
 As climate-tech and sustainable investing continue to grow, there's a need for automated, high-quality summaries that keep readers, professionals, and businesses informed. This project demonstrates how multi-agent systems can intelligently monitor sustainability news and transform unstructured data into digestible insights.
 
-## 🧱 Architecture Overview
+## Architecture Overview
 
     A[NewsAggregatorBuilder (Root Sequential Agent)]
     A --> B[FetchContentParallelAgent]
@@ -28,7 +28,7 @@ As climate-tech and sustainable investing continue to grow, there's a need for a
     C --> C3[FinalArticleComposerAgent]
     A --> D[PostOnNotionAgent]
 
-## 🧠 Agent Breakdown
+## Agent Breakdown
 |Agent|	Type|	Role|
 |---|---|---|
 |NewsAggregatorBuilder|	Sequential|	Orchestrates the entire pipeline|
@@ -42,7 +42,7 @@ As climate-tech and sustainable investing continue to grow, there's a need for a
 |FinalArticleComposerAgent|	Leaf|	Combines all content into one formatted article|
 |PostOnNotionAgent|	Leaf|	Posts the final article to a Notion page using MCP protocol|
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Google ADK – Agent orchestration and execution
 
 - Gemini 2.0 Flash / Pro – For all agent reasoning and summarization
@@ -53,7 +53,7 @@ As climate-tech and sustainable investing continue to grow, there's a need for a
 
 - Python 3.10+
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 sustainable_news_agents/
@@ -74,7 +74,7 @@ sustainable_news_agents/
         └── PostOnNotionAgent/
 ```
 
-## 🧪 Setup & Execution
+## Setup & Execution
 
 ### 1. Clone the Repository
 ```
@@ -104,19 +104,19 @@ output = news_aggregator_root_agent.run()
 print(output)
 ```
 
-## 📖 Example Output
+## Example Output
 ```
-🌿 Weekly Green Tech & ESG Insights
+Weekly Green Tech & ESG Insights
 
 ## 🏢 Top Highlights
 - Tesla invests in solid-state battery technology...
 - Enpal scales rooftop solar access in Germany...
 
-## 🌱 ESG Impact
+## ESG Impact
 - Enpal expected to cut ~2.1M tons CO2 over next 5 years...
 - Tesla’s battery division rates high in environmental transparency...
 
-## 📊 Visual Summary
+## Visual Summary
 - [ESG Score Chart here]
 - [Sentiment Pie Chart here]
 
@@ -124,10 +124,10 @@ print(output)
 - "Tesla" – Highly Positive (Trending on Twitter)
 - "Carbon Credit" – Mixed (Skepticism on Reddit)
 
-✅ POST IS COMPLETED to Notion
+POST IS COMPLETED to Notion
 ```
 
-## 🤝 Contributing
+## Contributing
 We welcome PRs, discussions, and improvements!
 
 Fork the repo
@@ -136,10 +136,10 @@ Create a new branch (feature/agent-name)
 
 Submit a pull request
 
-## 📄 License
+## License
 MIT License © 2025 Swapnil Verlekar
 
-📬 Contact
+Contact
 Swapnil Verlekar
 For collaboration, drop a message or open an issue!
 
