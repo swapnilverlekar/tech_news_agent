@@ -1,0 +1,1 @@
+This is the Technology News Generator based on latest trends and information on the internet.
